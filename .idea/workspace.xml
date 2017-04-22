@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09f16a67-f03e-48ec-8e7c-6c3ff9ec7c2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_delete_group.py" afterPath="$PROJECT_DIR$/tests/test_delete_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_api/adressbook_api.py" afterPath="$PROJECT_DIR$/web_api/adressbook_api.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/create_group.py" afterPath="$PROJECT_DIR$/tests/test_create_group.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,17 +20,17 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create_group.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/create_group.py">
+      <file leaf-file-name="test_create_group.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_create_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -42,8 +45,8 @@
       <file leaf-file-name="test_delete_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="102">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -62,8 +65,8 @@
       <file leaf-file-name="adressbook_api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_api/adressbook_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+            <state relative-caret-position="314">
+              <caret line="67" column="59" lean-forward="true" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -86,10 +89,10 @@
       <list>
         <option value="$PROJECT_DIR$/model/group.py" />
         <option value="$PROJECT_DIR$/create_group.py" />
-        <option value="$PROJECT_DIR$/tests/create_group.py" />
-        <option value="$PROJECT_DIR$/tests/test_delete_group.py" />
-        <option value="$PROJECT_DIR$/web_api/adressbook_api.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/web_api/adressbook_api.py" />
+        <option value="$PROJECT_DIR$/tests/test_delete_group.py" />
+        <option value="$PROJECT_DIR$/tests/create_group.py" />
       </list>
     </option>
   </component>
@@ -472,18 +475,6 @@
     <history-entry file="py_test_in_create_group_py_(1) - 2017.04.22 at 18h 39m 54s.xml">
       <configuration name="py.test in create_group.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_delete_group - 2017.04.22 at 18h 35m 11s.xml">
-      <configuration name="py.test in test_delete_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_delete_group - 2017.04.22 at 18h 36m 24s.xml">
-      <configuration name="py.test in test_delete_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_delete_group - 2017.04.22 at 18h 36m 50s.xml">
-      <configuration name="py.test in test_delete_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_delete_group - 2017.04.22 at 18h 39m 13s.xml">
-      <configuration name="py.test in test_delete_group" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_delete_group_py - 2017.04.22 at 18h 40m 17s.xml">
       <configuration name="py.test in test_delete_group.py" configurationId="tests" />
     </history-entry>
@@ -499,6 +490,18 @@
     <history-entry file="py_test_in_tests - 2017.04.22 at 18h 47m 54s.xml">
       <configuration name="py.test in tests" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_tests - 2017.04.22 at 18h 57m 42s.xml">
+      <configuration name="py.test in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tests - 2017.04.22 at 18h 58m 46s.xml">
+      <configuration name="py.test in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tests - 2017.04.22 at 18h 59m 53s.xml">
+      <configuration name="py.test in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tests - 2017.04.22 at 19h 00m 59s.xml">
+      <configuration name="py.test in tests" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -511,9 +514,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -550,30 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/create_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web_api/adressbook_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -581,6 +560,30 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web_api/adressbook_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="67" column="59" lean-forward="true" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_create_group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
