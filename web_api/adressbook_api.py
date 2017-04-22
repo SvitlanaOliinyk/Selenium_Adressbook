@@ -12,6 +12,7 @@ class AdressbookAPI:
 
     def login(self, username, password):
         wd = self.wd
+        self.open_home_page()
         # login
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
@@ -19,18 +20,18 @@ class AdressbookAPI:
         wd.find_element_by_name("pass").click()
         wd.find_element_by_name("pass").clear()
         wd.find_element_by_name("pass").send_keys(password)
+        wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
 
     def open_group_page(self):
         wd = self.wd
         # Open group page
-        wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
+        wd.find_element_by_xpath(r'//*[@id="nav"]/ul/li[3]/a').click()
 
     def create_group(self, group):
         wd = self.wd
         # Init group creation
-        wd.find_element_by_xpath(r'//*[@id="nav"]/ul/li[3]/a').click()
-        # Fill group form
         wd.find_element_by_name("new").click()
+        # Fill group form
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
         wd.find_element_by_name("group_name").send_keys(group.name)
@@ -55,3 +56,9 @@ class AdressbookAPI:
 
     def destroy(self):
         self.wd.quit()
+
+    def delete_group_by_number(self, number):
+        wd = self.wd
+        checkboxes = wd.find_elements_by_name('selected[]')
+        checkboxes[number].click()
+        wd.find_element_by_name('delete').click()
