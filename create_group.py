@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
 import unittest
+from model.group import Group
 
 
 class CreateGroup(unittest.TestCase):
@@ -8,11 +9,12 @@ class CreateGroup(unittest.TestCase):
         self.wd = webdriver.Firefox()
         self.wd.implicitly_wait(10)
     
-    def test_(self):
+    def test_group(self):
+        test_data_group = Group(name='Client', header='SuperHead', footer='Супер')
         self.open_home_page()
-        self.login("admin", "secret")
+        self.login(username="admin", password="secret")
         self.open_group_page()
-        self.create_group()
+        self.create_group(test_data_group)
         self.return_to_group_page()
         self.logout()
 
@@ -21,12 +23,12 @@ class CreateGroup(unittest.TestCase):
         wd = self.wd
         wd.get("http://localhost:8888/addressbook/")
 
-    def login(self, login, password):
+    def login(self, username, password):
         # login
         wd = self.wd
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
-        wd.find_element_by_name("user").send_keys(login)
+        wd.find_element_by_name("user").send_keys(username)
         wd.find_element_by_name("pass").click()
         wd.find_element_by_name("pass").clear()
         wd.find_element_by_name("pass").send_keys(password)
@@ -36,7 +38,7 @@ class CreateGroup(unittest.TestCase):
         wd = self.wd
         wd.find_element_by_xpath("//form[@id='LoginForm']/input[3]").click()
 
-    def create_group(self):
+    def create_group(self, group):
         # Init group creation
         wd = self.wd
         wd.find_element_by_xpath(r'//*[@id="nav"]/ul/li[3]/a').click()
@@ -44,16 +46,13 @@ class CreateGroup(unittest.TestCase):
         wd.find_element_by_name("new").click()
         wd.find_element_by_name("group_name").click()
         wd.find_element_by_name("group_name").clear()
-        wd.find_element_by_name("group_name").send_keys("Client")
-        wd.find_element_by_name("group_name").click()
-        wd.find_element_by_name("group_name").clear()
-        wd.find_element_by_name("group_name").send_keys("Client")
+        wd.find_element_by_name("group_name").send_keys(group.name)
         wd.find_element_by_name("group_header").click()
         wd.find_element_by_name("group_header").clear()
-        wd.find_element_by_name("group_header").send_keys("SuperHead")
+        wd.find_element_by_name("group_header").send_keys(group.header)
         wd.find_element_by_name("group_footer").click()
         wd.find_element_by_name("group_footer").clear()
-        wd.find_element_by_name("group_footer").send_keys("Супер")
+        wd.find_element_by_name("group_footer").send_keys(group.footer)
         # Submit group form
         wd.find_element_by_name("submit").click()
 
