@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09f16a67-f03e-48ec-8e7c-6c3ff9ec7c2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web_api/adressbook_api.py" afterPath="$PROJECT_DIR$/web_api/adressbook_api.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/create_group.py" afterPath="$PROJECT_DIR$/tests/create_group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conftest.py" afterPath="$PROJECT_DIR$/conftest.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -44,8 +42,8 @@
       <file leaf-file-name="test_delete_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -61,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adressbook_api.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adressbook_api.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_api/adressbook_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -88,10 +86,10 @@
       <list>
         <option value="$PROJECT_DIR$/model/group.py" />
         <option value="$PROJECT_DIR$/create_group.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/tests/create_group.py" />
         <option value="$PROJECT_DIR$/tests/test_delete_group.py" />
         <option value="$PROJECT_DIR$/web_api/adressbook_api.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
       </list>
     </option>
   </component>
@@ -185,24 +183,7 @@
       <recent name="D:\QA_Infopulse\Selenium_Adressbook\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_delete_group.py">
-    <configuration default="false" name="adressbook_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Selenium_Adressbook" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web_api/adressbook_api.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in tests">
     <configuration default="false" name="py.test in create_group.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,6 +274,30 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/tests/test_delete_group.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in tests" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Selenium_Adressbook" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/tests" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
@@ -434,19 +439,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.adressbook_api" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.adressbook_api" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in create_group.py" />
       </list>
     </recent_temporary>
   </component>
@@ -464,17 +469,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_create_group_py - 2017.04.22 at 17h 41m 48s.xml">
-      <configuration name="py.test in create_group.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_create_group_py_(1) - 2017.04.22 at 18h 39m 54s.xml">
       <configuration name="py.test in create_group.py (1)" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_delete_group - 2017.04.22 at 18h 32m 41s.xml">
-      <configuration name="py.test in test_delete_group" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_delete_group - 2017.04.22 at 18h 34m 31s.xml">
-      <configuration name="py.test in test_delete_group" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_delete_group - 2017.04.22 at 18h 35m 11s.xml">
       <configuration name="py.test in test_delete_group" configurationId="tests" />
@@ -493,6 +489,15 @@
     </history-entry>
     <history-entry file="py_test_in_test_delete_group_py - 2017.04.22 at 18h 43m 16s.xml">
       <configuration name="py.test in test_delete_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_delete_group_py - 2017.04.22 at 18h 43m 33s.xml">
+      <configuration name="py.test in test_delete_group.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tests - 2017.04.22 at 18h 46m 32s.xml">
+      <configuration name="py.test in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_tests - 2017.04.22 at 18h 47m 54s.xml">
+      <configuration name="py.test in tests" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -537,16 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/group.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -563,19 +558,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
+    <entry file="file://$PROJECT_DIR$/web_api/adressbook_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web_api/adressbook_api.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="32" column="1" lean-forward="false" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
