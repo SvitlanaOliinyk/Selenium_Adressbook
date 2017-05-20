@@ -71,6 +71,17 @@ class GroupHelper:
         for checkboxe in checkboxes:
             #Делаем срез, чтоб взять именно имя обїекта. Используем то, что есть постоянная часть
             name = checkboxe.get_attribute('title')[8:-1]
-            id = checkboxe.get_attribute('value')
+            id = int(checkboxe.get_attribute('value'))
             groups.append(Group(name=name, id=id))
         return groups
+
+    def count(self):
+        wd = self.app.wd
+        self.open_group_page()
+        checkboxes = wd.find_elements_by_name('selected[]')
+        return len(checkboxes)
+
+    def modify_by_number(self, number, data_to_modify):
+        data_to_modify.name
+        data_to_modify.header
+        data_to_modify.footer

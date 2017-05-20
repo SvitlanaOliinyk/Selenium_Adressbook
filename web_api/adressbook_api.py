@@ -6,9 +6,17 @@ from web_api.group_helper import GroupHelper
 
 
 class AdressbookAPI:
-    def __init__(self):
-        self.wd = webdriver.Chrome()
+    def __init__(self, browser, base_url):
+        if browser == "chrome":
+            self.wd = webdriver.Chrome()
+        elif browser == "firefox":
+            self.wd = webdriver.Firefox()
+        elif browser == "edge":
+            self.wd = webdriver.Edge()
+        else:
+            raise ValueError("Unrecognized browser {}".format(browser))
         self.wd.implicitly_wait(10)
+        self.base_url = base_url
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
         self.contact = ContactHelper(self)
@@ -16,7 +24,7 @@ class AdressbookAPI:
     def open_home_page(self):
         wd = self.wd
         # Open homepage
-        wd.get("http://localhost:8888/addressbook/")
+        wd.get(self.base_url)
 
     def destroy(self):
         self.wd.quit()
